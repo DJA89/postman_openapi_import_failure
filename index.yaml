@@ -1,0 +1,15 @@
+openapi: '3.0.0'
+info:
+  version: 1.0.0
+  title: Some API
+  description: Some API endpoints.
+servers:
+  - url: /
+paths:
+  /type-a:
+    $ref: './paths/type-a.yaml'
+  /type-b:
+    $ref: './paths/type-b.yaml'
+components:
+  schemas:
+    $ref: './schemas/index.yaml'

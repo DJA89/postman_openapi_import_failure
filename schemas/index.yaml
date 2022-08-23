@@ -1,0 +1,6 @@
+TypeA:
+  $ref: './type-a/TypeA.yaml'
+Instructor:
+  $ref: './type-b/TypeB.yaml'
+OnlyInteger:
+  $ref: './only-integer/OnlyInteger.yaml'

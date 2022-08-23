@@ -1,0 +1,12 @@
+get:
+  tags:
+    - type-a
+  operationId: getTypeA
+  summary: Get type a
+  responses:
+    "200":
+      description: Type A response
+      content:
+        application/json:
+          schema:
+            $ref: "../schemas/type-a/TypeA.yaml"

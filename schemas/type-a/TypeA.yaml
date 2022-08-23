@@ -1,0 +1,13 @@
+type: object
+required:
+  - id
+  - other_property
+properties:
+  id:
+    type: integer
+  type-b:
+    anyOf:
+      - $ref: "../only-integer/OnlyInteger.yaml"
+      - $ref: "../type-b/TypeB.yaml"
+  other_property:
+    type: string
